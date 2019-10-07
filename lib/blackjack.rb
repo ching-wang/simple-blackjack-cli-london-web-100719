@@ -38,7 +38,8 @@ def hit?(initial_round)
   elsif input == "h"
    initial_round = initial_round.to_i + deal_card()
  end 
- 
+  else 
+    
 end
 
 def invalid_command

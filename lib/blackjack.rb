@@ -64,7 +64,7 @@ def runner()
   welcome()
   initial_round()
   total = hit?(current_total)
-  display_card_total()
+  display_card_total(num)
 end
   end_game()
 end 

@@ -6,7 +6,7 @@ def deal_card()
   return rand(11) + 1 
 end
 
-def display_card_total(card total)
+def display_card_total(num)
   return "Your cards add up to #{card total}"
 end
 

@@ -33,7 +33,11 @@ end
 def hit?(initial_round)
   prompt_user()
   get_user_input()
-  
+  if input == "s"
+  end 
+  if input == "h"
+    deal_card()
+    
 end
 
 def invalid_command

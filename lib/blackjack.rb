@@ -34,6 +34,10 @@ end
 
 def hit?
   # code hit? here
+  
+  if input == "s" no deal cards
+  if input == "h" 
+  deal_card() 
 end
 
 def invalid_command

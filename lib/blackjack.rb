@@ -60,10 +60,10 @@ end
 
 binding.pry
 def runner()
+  total = hit?(current_total)
   until total >= 21
   welcome()
   initial_round()
-  total = hit?(current_total)
   display_card_total(num)
 end
   end_game()

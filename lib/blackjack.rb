@@ -40,8 +40,8 @@ def hit?(current_total)
   elsif input.to_s == "h"
    current_total = current_total + deal_card()
   else 
-  invalid_command()
-  prompt_user()
+    invalid_command()
+    prompt_user()
   end 
   return initial_round
 end

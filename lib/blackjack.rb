@@ -18,7 +18,7 @@ def get_user_input
   input = gets
 end
 
-def end_game(display_card_total)
+def end_game(num)
  return "Sorry, you hit #{display_card_total}. Thanks for playing!"
 end
 

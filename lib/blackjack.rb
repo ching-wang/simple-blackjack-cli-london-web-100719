@@ -1,12 +1,12 @@
-def welcome
+def welcome()
   puts "Welcome to the Blackjack Table"
 end
 
-def deal_card
+def deal_card()
   return rand(11) + 1 
 end
 
-def display_card_total
+def display_card_total()
   return "Your cards add up to #{card_total}"
 end
 

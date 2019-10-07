@@ -12,7 +12,7 @@ end
 
 def prompt_user()
   input = gets.strip
-   puts "Type 'h' to hit or 's' to stay"
+  puts "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input

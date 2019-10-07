@@ -61,6 +61,7 @@ end
 
 def runner
   Welcome()
+  initial_round()
   
 end
     

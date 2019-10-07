@@ -33,9 +33,9 @@ end
 def hit?(initial_round)
   prompt_user()
   get_user_input()
-  if get_user_input.to_s == "s"
+  if get_user_input().to_s == "s"
   end 
-  if input == "h"
+  if get_user_input().to_s == "h"
    initial_round = initial_round.to_i + deal_card()
   else 
   invalid_command()

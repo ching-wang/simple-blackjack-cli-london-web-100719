@@ -35,7 +35,7 @@ binding.pry
 def hit?(current_total)
   prompt_user()
   input = get_user_input()
-  if get_user_input().to_s == "s"
+  if input.to_s == "s"
   end 
   if get_user_input().to_s == "h"
    current_total = current_total + deal_card()

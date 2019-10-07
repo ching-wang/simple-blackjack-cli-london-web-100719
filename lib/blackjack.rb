@@ -30,12 +30,8 @@ def initial_round
   display_card_total(total)
 end
 
-def hit?
+def hit?()
   # code hit? here
-  
-  if input == "s" no deal cards
-  if input == "h" 
-  deal_card() 
 end
 
 def invalid_command

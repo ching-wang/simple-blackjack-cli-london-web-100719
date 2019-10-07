@@ -31,7 +31,7 @@ def initial_round
   return total
 end
 
-binding.pry
+
 def hit?(current_total)
   prompt_user()
   input = get_user_input()

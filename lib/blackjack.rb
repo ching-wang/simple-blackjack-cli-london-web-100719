@@ -60,7 +60,7 @@ end
 #####################################################
 
 def runner
-  Welcome()
+  welcome()
   initial_round()
   
 end

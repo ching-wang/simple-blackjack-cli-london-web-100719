@@ -28,6 +28,8 @@ def initial_round
   display_card_total()
   puts sum 
   return sum 
+  deal_card
+  display_card_total(sum)
 end
 
 def hit?

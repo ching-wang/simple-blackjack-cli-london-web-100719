@@ -30,6 +30,7 @@ def initial_round
   return total
 end
 
+binding.pry
 def hit?(initial_round)
   prompt_user()
   get_user_input()

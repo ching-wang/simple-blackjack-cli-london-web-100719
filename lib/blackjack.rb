@@ -33,7 +33,7 @@ end
 binding.pry
 def hit?(initial_round)
   prompt_user()
-  gets_user_input()
+  get_user_input()
   if get_user_input().to_s == "s"
   end 
   if get_user_input().to_s == "h"

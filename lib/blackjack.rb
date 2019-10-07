@@ -33,7 +33,7 @@ end
 def hit?(initial_round)
   prompt_user()
   get_user_input()
-  if input == "s"
+  if get_user_input.to_s == "s"
   end 
   if input == "h"
    initial_round = initial_round.to_i + deal_card()

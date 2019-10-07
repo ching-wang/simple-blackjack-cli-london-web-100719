@@ -18,6 +18,7 @@ end
 
 def get_user_input()
   input = gets
+  return input
 end
 
 def end_game(num)

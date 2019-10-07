@@ -60,6 +60,7 @@ end
 
 
 def runner()
+  total = 0
   until total > 21
     welcome()
     initial_round()

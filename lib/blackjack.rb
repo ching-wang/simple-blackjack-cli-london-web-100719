@@ -42,7 +42,7 @@ def hit?(initial_round)
 end
 
 def invalid_command
-  puts ""
+  puts "Please enter a valid command"
 end
 
 #####################################################

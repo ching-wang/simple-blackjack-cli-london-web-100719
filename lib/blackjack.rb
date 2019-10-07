@@ -58,7 +58,7 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-binding.pry
+
 def runner()
   until total > 21
   welcome()

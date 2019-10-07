@@ -31,7 +31,8 @@ def initial_round
 end
 
 def hit?(initial_round)
-  prompt_user
+  prompt_user()
+  
 end
 
 def invalid_command

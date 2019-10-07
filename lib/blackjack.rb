@@ -60,8 +60,8 @@ end
 
 binding.pry
 def runner()
+  until  >= 21
   total = hit?(current_total)
-  until total >= 21
   welcome()
   initial_round()
   hit?(current_total)

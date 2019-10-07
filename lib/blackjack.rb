@@ -22,6 +22,7 @@ def end_game(num)
  puts  "Sorry, you hit #{num}. Thanks for playing!"
 end
 
+binding.pry
 def initial_round
   sum = deal_card().to_i + deal_card().to_i
   display_card_total(sum)

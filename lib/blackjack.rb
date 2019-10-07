@@ -61,9 +61,8 @@ end
 
 def runner()
   welcome()
-  total = 0
+  total = initial_round()
   until total > 21
-    initial_round()
     total = hit?(total)
     display_card_total(total)
   end
